@@ -47,12 +47,12 @@ int main()
 	root->rlink->rlink=insert_node(root, 'F');    	
     
 	/*       A
-			/	\  
-		  B	  C
-		/		/  \
-	  D		E    F
-	 /  \		\
-   G   H        I
+	       /   \  
+	      B	    C
+	    /	   /  \
+	  D	  E    F
+	 /  \	   \
+        G    H      I
    
    */
 	Level_Order_Traversal(root);
