@@ -22,7 +22,5 @@ int main()
 	root=insert_node(root,1);
 	root->llink=insert_node(root,2);
 	root->rlink=insert_node(root,3);
-	int level;
-	display(root, level);
 
 }
